@@ -15,13 +15,12 @@ YouTube, Vimeo vb. platformlardan video/ses indirmek için web arayüzü sağlay
 ### Kurulum ve Çalıştırma
 1. Dizine gidin:
    ```bash
-   cd /Users/ozcan/Desktop/DockerVM/metube
+   cd /Users/user1/Desktop/DockerVM/metube
+    # Burada sizin kullanıcı yolunuzu belirtin.
    ```
 2. Konteyneri başlatın:
    ```bash
    docker compose -f metube-docker-compose.yml up -d
-   # veya eski sürümlerde
-   docker-compose -f metube-docker-compose.yml up -d
    ```
 3. Tarayıcıdan erişin:
    ```
