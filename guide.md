@@ -19,8 +19,8 @@ services:
     volumes:
       - "./downloads:/downloads"
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=501
+      - PGID=20
       - TZ=Europe/Istanbul
 ```
 
@@ -61,7 +61,7 @@ docker logs -f metube
 - Port çakışması: 8081 başka bir servis tarafından kullanılıyorsa portu değiştirin.
 - İzinler (özellikle Linux):
 ```bash
-sudo chown -R 1000:1000 ./downloads
+sudo chown -R 501:20 ./downloads
 ```
 macOS’ta PUID/PGID farklı olabilir; kendi kullanıcı kimliğinizi öğrenmek için:
 ```bash
