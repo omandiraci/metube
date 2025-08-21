@@ -34,8 +34,6 @@ Alanların açıklaması:
 ```bash
 cd /Users/ozcan/Desktop/DockerVM/metube
 docker compose -f metube-docker-compose.yml up -d
-# veya
-docker-compose -f metube-docker-compose.yml up -d
 ```
 
 Tarayıcıdan erişim:
